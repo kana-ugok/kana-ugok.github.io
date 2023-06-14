@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanako’s Portfolio</title>
+    <link rel="stylesheet" href="css/style1.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul id="page-link">
+          <li><a href="#Portfolio">Kanako’s Portfolio</a></li>
+          <li><a href="#ABOUT">ABOUT</a></li>
+          <li><a href="#WORKS">WORKS</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="Portfolio">
+        <h1>PORT FOLIO</h1>
+      </section>
+
+      <section id="ABOUT">
+        <h2>ABOUT</h2>
+        <div id="profile">
+          <div id="profile-img">
+            <img src="imgs/catpc.png" alt="catpc" />
+          </div>
+          <div id="profile-text">
+            <p>須貝 可奈子</p>
+            <p>Sugai Kanako</p>
+            <p>関西の大学にてデザインやweb制作などの勉強をしています。</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="WORKS">
+        <h2>WORKS</h2>
+        <div id="WORKS-box">
+          <section id="poster">
+            <div id="poster-img">
+              <a href="#info1" class="modal-open"><img src="imgs/poster.png" alt="poster" /> </a>
+              <section id="info1">
+                <img src="imgs/poster.png" alt="poster" />
+              </section>
+            </div>
+            <div id="poster-text">
+              <p>架空のポスター</p>
+              <p>#Adobe Illustrator</p>
+              <p>#Adobe Photoshop</p>
+              <p>2021/11</p>
+            </div>
+          </section>
+          <section id="site">
+            <div id="site-img">
+              <a href="#info2" class="modal-open"> <img src="imgs/site1.png" alt="site1" /></a>
+              <section id="info2">
+                <img src="imgs/site1.png" alt="site" />
+                <img src="imgs/site2.png" alt="site" />
+                <img src="imgs/site3.png" alt="site" />
+                <img src="imgs/site4.png" alt="site" />
+                <img src="imgs/site5.png" alt="site" />
+              </section>
+            </div>
+            <div id="site-text">
+              <p>ポートフォリオサイト</p>
+              <p>#HTML</p>
+              <p>#CSS</p>
+              <p>2022/06</p>
+            </div>
+          </section>
+          <section id="package">
+            <div id="package-img">
+              <a href="#info3" class="modal-open"> <img src="imgs/package2.png" alt="package1" /></a>
+              <section id="info3">
+                <img src="imgs/package2.png" alt="package" />
+                <img src="imgs/package1.png" alt="package" />
+              </section>
+            </div>
+            <div id="package-text">
+              <p>架空の菓子パッケージ</p>
+              <p>#Adobe Illustrator</p>
+              <p>#Adobe Photoshop</p>
+              <p>2021/12~2022/01</p>
+            </div>
+          </section>
+          <img src="imgs/catbox.png" alt="catbox" id="WORKS-box-img" />
+        </div>
+      </section>
+    </main>
+    <footer>©️SUGAI KANAKO All rights reserved.</footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
